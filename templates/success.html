@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<title>web-ui</title>
+<body>
+<div><center>Web-UI</center></div>
+
+<p>Please find your selection:</p>
+{% for key in app_dict %}
+
+<p>{{ key }} : {{ app_dict[key] }}</p>
+
+{% endfor %}
+</body>
+</html>
+
