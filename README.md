@@ -1,2 +1,2 @@
 # infra-provision
-Automate provision of app using python and terraform
+Automate provision of infra resources using python and terraform
